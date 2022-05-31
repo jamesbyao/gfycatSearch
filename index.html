@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+	
+
+	</style>
+	
+	</head>
+	<body>
+		<div>
+			<h1> Search for Gifs! </h1>
+		</div>
+
+		<div class="col-md-4 offset-md-4 mt-5 border border-success pt-3">
+		<div class="input-group mb-3">
+  			<input type="search" id="userSearch" name="q"
+			placeholder="Search..."
+			aria-label="Search through site content">
+			<button id="search_button" onclick="getSearchGifs()">Try it</button>
+			Trending Gifs: <button id="trending_button" onclick="getTrendingGifs()">View</button>
+  		<div class="input-group-append">
+    		<span class="input-group-text"><i class="fa fa-search"></i></span>
+  		</div>
+  		</div>
+	</div>
+
+	<!-- Installing Axios -->
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+	<!-- Javascript file -->
+	<script src="index.js"></script>
+
+	</body>
+	</html>
